@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{8E73570D-25D3-4E8F-9C60-82AF61207A71}|TriangleSolverTest\\TriangleSolverTest\\TriangleSolverTest.csproj|solutionrelative:trianglesolvertest\\trianglesolvertest\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}|TriangleSolver\\TriangleSolver.csproj|c:\\conestoga\\second term\\software quality\\softwarequality-assignment\\softwarequality-assignment\\trianglesolver\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}|TriangleSolver\\TriangleSolver.csproj|C:\\Conestoga\\Second Term\\Software Quality\\SoftwareQuality-Assignment\\SoftwareQuality-Assignment\\trianglesolver\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E91297F3-BEAC-4D77-8BEF-B6DA0646079E}|TriangleSolver\\TriangleSolver.csproj|solutionrelative:trianglesolver\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "TriangleSolverTest\\TriangleSolverTest\\Class1.cs",
               "ToolTip": "C:\\Conestoga\\Second Term\\Software Quality\\SoftwareQuality-Assignment\\SoftwareQuality-Assignment\\TriangleSolverTest\\TriangleSolverTest\\Class1.cs",
               "RelativeToolTip": "TriangleSolverTest\\TriangleSolverTest\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T04:09:03.165Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "TriangleSolver\\Triangle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T04:09:06.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T04:09:06.774Z"
             }
           ]
         }
