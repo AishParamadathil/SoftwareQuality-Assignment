@@ -206,5 +206,55 @@ namespace TriangleSolverTest
             // Assert
             Assert.That(actual, Is.EqualTo(expected));
         }
+
+
+        //tests to verify an invalid response (other than a zero length)
+        [Test]
+        public void AnalyzeTriangle_SumOfTwoSidesEqualsThirdSide_ReturnsInvalid()
+        {
+            // Arrange
+            int firstSide = 2;
+            int secondSide = 3;
+            int thirdSide = 5;
+            string expected = "INVALID!!";
+
+            // Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void AnalyzeTriangle_SumOfTwoSidesLessThanThirdSide_ReturnsInvalid()
+        {
+            // Arrange
+            int firstSide = 3;
+            int secondSide = 4;
+            int thirdSide = 8;
+            string expected = "INVALID!!";
+
+            // Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void AnalyzeTriangle_AllPositiveButInvalid_ReturnsInvalid()
+        {
+            // Arrange
+            int firstSide = 1;
+            int secondSide = 10;
+            int thirdSide = 12;
+            string expected = "INVALID!!";
+
+            // Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
+        }
     }
 }
