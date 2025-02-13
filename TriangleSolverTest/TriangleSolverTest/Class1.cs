@@ -157,5 +157,54 @@ namespace TriangleSolverTest
             // Assert
             Assert.That(actual, Is.EqualTo(expected));
         }
+
+        //tests for verifying a zero length of one or more slides
+        [Test]
+        public void AnalyzeTriangle_ZeroFirstSide_ReturnsInvalidTriangle()
+        {
+            // Arrange
+            int firstSide = 0;
+            int secondSide = 5;
+            int thirdSide = 6;
+            string expected = "Invalid Triangle - a zero has been detected";
+
+            // Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void AnalyzeTriangle_ZeroSecondSide_ReturnsInvalidTriangle()
+        {
+            // Arrange
+            int firstSide = 4;
+            int secondSide = 0;
+            int thirdSide = 7;
+            string expected = "Invalid Triangle - a zero has been detected";
+
+            // Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void AnalyzeTriangle_AllSidesZero_ReturnsInvalidTriangle()
+        {
+            // Arrange
+            int firstSide = 0;
+            int secondSide = 0;
+            int thirdSide = 0;
+            string expected = "Invalid Triangle - a zero has been detected";
+
+            // Act
+            string actual = Triangle.AnalyzeTriangle(firstSide, secondSide, thirdSide);
+
+            // Assert
+            Assert.That(actual, Is.EqualTo(expected));
+        }
     }
 }
